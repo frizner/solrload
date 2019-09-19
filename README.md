@@ -11,7 +11,7 @@ solrsrv01.8983.gettingstarted.20181029-163603/solrsrv01.8983.gettingstarted.2.js
 solrsrv01.8983.gettingstarted.20181029-163603/solrsrv01.8983.gettingstarted.4.json is uploaded (5/5)
 ```
 
-## Feauteres
+## Features
 - Uploading documents into a Solr collection in parallel. Even if a collection has only one shard, uploading in parallel can sufficiently decrees time of indexing.
 - `solrload` can be used in a tandem with [solrdump](https://github.com/frizner/solrdump) utility.
 ```sh
