@@ -12,7 +12,7 @@ solrsrv01.8983.gettingstarted.20181029-163603/solrsrv01.8983.gettingstarted.4.js
 ```
 
 ## Feauteres
-- Uploading documents into a Solr collection in parallel. Even if a collaction has only one shard, uploading in parallel can sufficiently decreses time of indexing.
+- Uploading documents into a Solr collection in parallel. Even if a collection has only one shard, uploading in parallel can sufficiently decrees time of indexing.
 - `solrload` can be used in a tandem with [solrdump](https://github.com/frizner/solrdump) utility.
 ```sh
 SOLRUSER="solruser1" SOLRPASSW="solrpassword1" solrdump -c "http://solrsrv01:8983/solr/gettingstarted" -r 50000 -s "id asc"
